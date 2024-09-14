@@ -57,26 +57,22 @@ The following visualizations are generated as part of the analysis:
 ### Sample Visualizations
 
 - Survival Count Bar Chart:
-  ![Survived Bar Chart](images/survived_bar.png)
+  ![Survived Bar Chart](survivde_bar.png)
 
 - Passenger Class Pie Chart:
-  ![Pclass Pie Chart](images/pclass_pie.png)
+  ![Pclass Pie Chart](pclassbar.png)
 
 ## How to Run
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/titanic-univariate-analysis.git
-   ```
-2. **Install the required libraries**:
+1. **Install the required libraries**:
    ```bash
    pip install pandas matplotlib seaborn fpdf
    ```
-3. **Run the analysis**:
+2. **Run the analysis**:
    ```bash
    python univariate_analysis.py
    ```
-4. **Generate PDF Report**:
+3. **Generate PDF Report**:
    The code will generate a PDF report of the univariate analysis. This file will be saved as `titanic_univariate_report.pdf` in the root directory.
 
 ## Conclusion
